@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".HomeActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight=".04"
+        android:padding="5dp">
+
+
+        <ImageView
+            android:id="@+id/infoButtonImageView2"
+            android:layout_width="20dp"
+            android:layout_height="58dp"
+            android:layout_gravity="right"
+            android:layout_weight=".1"
+             />
+
+        <TextView
+            android:id="@+id/suggestionNameTextView"
+            android:layout_width="324dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".75"
+            android:gravity="center_vertical"
+            android:text="Abdulrahman Yunis"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorBlack"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:dividerHeight="1dp"/>
+
+
+    </TableRow>
+
+
+
+    <ImageView
+        android:id="@+id/suggestionPhotoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="415dp"
+        android:layout_weight="0.64"
+        android:background="#494c4141"
+        android:scaleType="centerInside"
+        android:src="@drawable/bash" />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight=".04"
+        android:padding="5dp"
+        >
+
+
+
+        <ImageView
+            android:id="@+id/suggestionYearImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".04"
+            android:src="@drawable/x_new"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:background="@color/colorRed"/>
+
+        <ImageView
+            android:id="@+id/suggestionProgramImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".04"
+            android:src="@drawable/baseline_check_24"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:background="@color/colorGreen"/>
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textViewCoursesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Courses:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintTop_toBottomOf="@id/suggestionPhotoImageView"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/editTextCourses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ellipsize="end"
+        android:maxLines="4"
+        android:text="Data Structures, Introduction to Linguistic Theory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/textViewCoursesLabel"
+        app:layout_constraintTop_toTopOf="@id/textViewCoursesLabel"
+        tools:layout_constraintHorizontal_bias="0.1" />
+
+    <TextView
+        android:id="@+id/textViewMajorLabel"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Major:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextCourses" />
+
+    <TextView
+        android:id="@+id/editTextMajorCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Computer Science"
+
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/textViewMajorLabel" />
+
+    <TextView
+        android:id="@+id/textViewBioLabel"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Bio:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextMajorCard" />
+
+    <TextView
+        android:id="@+id/editTextBio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I'm a computer science major and linguist..."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/textViewBioLabel"
+
+        android:layout_marginStart="8dp"
+        android:maxLines="4"
+        android:ellipsize="end" />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <!-- General Strings -->
+    <string name="app_name">Study Buddy</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="login">Login</string>
+    <!-- Register Strings -->
+    <string name="enterUsername">Enter Username</string>
+    <string name="enterEmailAddress">Enter Email Address</string>
+    <string name="password">Password</string>
+    <string name="enterPassword">Enter Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="enterFullName">Enter Full Name</string>
+    <string name="enterBiography">Enter a Biography</string>
+    <string name="enterInterests">Enter Interests</string>
+    <string name="enterGPA">Enter GPA (optional)</string>
+    <string name="uploadProfilePicture">Upload Profile Picture</string>
+    <string name="next">Next</string>
+    <!-- Course Strings -->
+    <string name="addCourse">Add Course</string>
+    <string name="courseNameHeader">Course Name</string>
+    <string name="courseIDHeader">Course ID</string>
+    <string name="removeCourseHeader">Remove Course</string>
+    <string name="remove">Remove</string>
+    <string name="editCoursesExplanation">What courses would you like to find a study buddy for?</string>
+    <string name="colon">:</string>
+    <string name="enterSchoolNum">XX</string>
+    <string name="enterCourseName">Course name</string>
+    <string name="enterTripleDigitNum">XXX</string>
+    <string name="exampleBioJohnFull">I\'m a computer science major and linguistics minor, class of 2021. I\'m a strong programmer and I love linguistics, but I\'m struggling to wrap my head around recursion, which is crucial to both cs and lingustics, so any help with that would be appreciated!</string>
+    <string name="ExampleInterestsJohn">Travelling, learning new languages, baseball, and listening to pop music!</string>
+    <string name="done">done</string>
+
+    <item type="id" name="TAG_TEXT_INDEX"/>
+    <item type="id" name="TAG_KEYLISTENER_INDEX"/>
+</resources>

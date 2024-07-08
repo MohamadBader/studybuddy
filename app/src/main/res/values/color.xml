@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#add8e6</color>
+    <color name="colorPrimaryDark">#189ad3</color>
+    <color name="colorAccent">#9CDAF4</color>
+    <color name="white">#eeeeee</color>
+    <color name="gray">#dddddd</color>
+    <color name="binder_yellow">#FFC0CB</color>
+    <color name="binder_dk_grey">#dddddd</color>
+    <color name="colorBlack">#071317</color>
+    <color name="colorRed">#A92A2A</color>
+    <color name="colorGreen">#0DB73D</color>
+
+
+
+</resources>
