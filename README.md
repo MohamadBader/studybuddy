@@ -71,12 +71,11 @@ We welcome contributions from the community! If you have any suggestions, bug re
 
 ## Contact
 If you have any questions or need further assistance, please feel free to reach out:
-##Abdulrahman Yunis
+## Abdulrahman Yunis
 - **Email**: abdulrahmanabdi01@gmail.com
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/abdulrahmanyunis/)
 
-
-##Mohamad Bader
+## Mohamad Bader
 - **Email**: mohamed.bader@sabanciuniv.edu
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/mohamad-bader-cse03/)
 
