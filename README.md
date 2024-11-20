@@ -77,7 +77,7 @@ If you have any questions or need further assistance, please feel free to reach 
 
 ## Mohamad Bader
 - **Github**: https://github.com/MohamadBader
-- **Email**: mohamed.bader@sabanciuniv.edu
+- **Email**: mohamad.bader@sabanciuniv.edu
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/mohamad-bader-cse03/)
 
 
